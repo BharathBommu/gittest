@@ -1,0 +1,74 @@
+
+
+url 
+	- https://demo.effitrac.com/erp/rest/invoice/Invoice/Sales/cancelSalesInvoice/?tokenDTO=%7B%22cmpCode%22:%22RGS%22,%22orgCode%22:%22EAPP%22,%22userId%22:%22ADMIN%22,%22deviceId%22:%221233%22,%22tokenId%22:%221000:cd8af30a44c096d520d80cc6a706f396b5662c5f494004c9:53a472a35ad49a41b88d929b434819c1e6c1e1970b5ce7d2%22%7D
+
+
+
+
+
+body
+
+ - {
+billState: "33"
+cmpCode: "RGS"
+custId: "CUST-120"
+customerName: "Customerrr naveen"
+deliveryState: "33"
+discountAmount: 0
+docType: "POS"
+foreignCurrencyRate: 0
+fyYear: "2022-23"
+isAllowDupProduct: true
+isConvertCurrency: false
+isDeleteInventoryLog: false
+isDirectPayment: false
+isEnableInvAdvAmt: false
+isEnableTagwise: false
+isGst: false
+jBusDate: "May 17, 2022"
+lcDiscountAmount: 0
+lcRoundOff: 0
+lcSubTotal: 120
+localCurrency: "INR"
+orderId: "POS-1-2223-36"
+orgCode: "WGS"
+paymentDueDate: ""
+paymentMode: "101"
+paymentType: "1"
+priceId: ""
+rate: 0
+referenceOrderId: ""
+roundOff: 0
+salesOrderLineList: []
+salesPersonId: "admin"
+shipBillDate: ""
+shipNodeId: "1"
+status: "CANCELLED"
+subTotal: 120
+totalAmount: 120
+totalItems: 1
+totalLcAmount: 120
+txnDate: "2022-05-17"
+userId: "admin"
+}
+
+
+response -
+	{
+    "cmpCode": null,
+    "orgCode": null,
+    "userId": null,
+    "tokenId": "1000:d2c75bb4f632355333edde5394212bcfc38035127604da23:942e017851f475fb9763ab716bf381012427c46b15ff8f67",
+    "deviceId": null,
+    "response": "\"POS-1-2223-32\"",
+    "errorMessages": [],
+    "responseCode": "1",
+    "isTokenChanged": true,
+    "validUpto": null,
+    "isSendNotification": false,
+    "employeeCode": null,
+    "clientIp": null,
+    "isWarnAndApply": false,
+    "requestParams": null
+}
